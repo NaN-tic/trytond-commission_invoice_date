@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:commission.plan,invoice_date:"
+msgid "Invoice Date"
+msgstr "Fecha factura"
+
+msgctxt "help:commission.plan,invoice_date:"
+msgid "Create commissions with invoice date"
+msgstr "Crea las comisiones con la fecha de factura"
