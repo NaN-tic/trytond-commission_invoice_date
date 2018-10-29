@@ -6,15 +6,13 @@ from trytond.model import fields
 __all__ = ['Plan', 'InvoiceLine']
 
 
-class Plan:
-    __metaclass__ = PoolMeta
+class Plan(metaclass=PoolMeta):
     __name__ = 'commission.plan'
     invoice_date = fields.Boolean('Invoice Date',
         help='Create commissions with invoice date')
 
 
-class InvoiceLine:
-    __metaclass__ = PoolMeta
+class InvoiceLine(metaclass=PoolMeta):
     __name__ = 'account.invoice.line'
 
     def get_commissions(self):
